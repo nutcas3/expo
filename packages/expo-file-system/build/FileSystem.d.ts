@@ -7,6 +7,10 @@ export declare class Paths extends PathUtilities {
      */
     static get cache(): Directory;
     /**
+     * A property containing the bundle directory (which contains assets bundled in the app during build-time).
+     */
+    static get bundle(): Directory;
+    /**
      * A property containing the document directory – a place to store files that are safe from being deleted by the system.
      */
     static get document(): Directory;
